@@ -15,6 +15,7 @@ tmp
 
 # Build
 public/css/main.css
+*out/*
 
 # Coverage reports
 coverage
@@ -41,4 +42,4 @@ dist/**/*
 yarn.lock
 
 # specific files to ignore
-*.apiKey
+*.apiKey.ts

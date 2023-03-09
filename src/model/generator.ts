@@ -1,7 +1,9 @@
 import { Configuration, OpenAIApi } from "openai";
+import apiKey from "../config/.apiKey";
+// You need to supply your openAI key in this file (src/config/.apiKey.ts)
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: apiKey,
 });
 const openai = new OpenAIApi(configuration);
 
